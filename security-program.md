@@ -46,7 +46,7 @@
 
 5. **Backup Management**  
    - Schedule automated, **offline backups** for critical data:
-     - Use encrypted, air-gapped backups.
+     - Use encrypted backups.
    - Verify backups regularly for integrity.
 
 6. **Restrict Network Activity**  
@@ -56,7 +56,7 @@
    
    6.2 **Outbound Connection Control**  
    - Block outgoing traffic to unknown IPs/domains.  
-   - Use DNS filtering to prevent connections to malicious C&C servers.
+   - Use DNS filtering to prevent connections to malicious servers.
 
 7. **Respond to Ransomware Activity**  
    7.1 **Isolation**  
@@ -65,7 +65,7 @@
 
    7.2 **Recovery**  
    - Restore data from clean backups.  
-   - Rebuild affected systems to ensure no lingering ransomware.  
+   - Rebuild affected systems to ensure no ransomware.  
 
    7.3 **Communication**  
    - Inform stakeholders and report incidents to cybersecurity authorities.
